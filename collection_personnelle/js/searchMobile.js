@@ -1,0 +1,3 @@
+function searchMobile(){let logo=document.getElementById("logoHeaderDiv");logo.classList.add("logoHidden")}
+function searchMobileReturn(){let logo=document.getElementById("logoHeaderDiv");let searchInput=document.getElementById("searchLogo");let searchInputPages=document.getElementById("searchLogoPages");if(searchInput){searchInput.value=""}else if(searchInputPages){searchInputPages.value=""}
+logo.classList.remove("logoHidden")}
